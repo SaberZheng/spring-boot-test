@@ -13,7 +13,8 @@ import javax.annotation.Resource;
 
 
 @RestController
-@SpringBootApplication//开启自动配置
+//开启自动配置
+@SpringBootApplication
 public class SpringBootTestApplication {
 
     @Autowired
